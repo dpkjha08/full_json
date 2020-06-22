@@ -36,6 +36,9 @@
         c.2) run migration command as given in points a.1) and a.2) 
         c.3) to populate data in the tables run command python manage.py add_users_auto <number of users to be add>
                 eg -> python manage.py add_users_auto 10 
+
+
+8. To install all the packages into your project folder (recommended to have virtual env), the command is : pip install -r requirement.txt 
     
     
 
