@@ -10,9 +10,15 @@ class User(models.Model):
     class Meta:
         db_table = 'User'
 
+    @property
+    def activity_periods(self):
+        return self.activityperiod_set.all()
+
+
 class ActivityPeriod(models.Model):
     id = models.AutoField(primary_key=100)
-    user_id = models.IntegerField()
+    # user_id = models.IntegerField()
+    user_id = models.ForeignKey('api1.User',on_delete=models.CASCADE)
     start_time = models.CharField(max_length=300)
     end_time = models.CharField(max_length=300)
 

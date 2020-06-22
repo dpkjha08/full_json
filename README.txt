@@ -3,21 +3,23 @@
 2. Project name is 'full_json' and there is only one app called 'api1'
 
 3. As per the requirement it provides custom management command
-        To add user automatcially the command is : python manage.py add_users_auto 10 
-        Note : The number 10 is changeable, the number 10 here specifies the number of users to be added
-        If one wants to add 15 users the command would be : python manage.py add_users_auto 15 -> This will add 15 users
-        For start_time and end_time it will be populated automatcially when the above command is executed with 3 entries of start_time and end_time for particular user
+       a) To add user automatcially the command is : python manage.py add_users_auto 10 
+          Note : The number 10 is changeable, the number 10 here specifies the number of users to be added
+          If one wants to add 15 users the command would be : python manage.py add_users_auto 15 -> This will add 15 users
+          For start_time and end_time it will be populated automatcially when the above command is executed with 3 entries of start_time and end_time for particular user
+       b) To see all the users using custom command, the command is : python manage.py get_all_users
 
-4. Mentoined in the requuirement file for dummy data faker has been used and the start_time end_time may mismatch beacuse of random date and time selection 
 
-5. Id for simplicity is given as 1, 2, 3. It can be change if a full fludge application with user_id or user_name.
+4. Mentioned in the requuirement file for dummy data faker has been used so start_time and end_time may mismatch beacuse of random date and time selection 
+
+5. Id for simplicity is given as 1, 2, 3. It can be change if a full fludge application with user_id or user_name is considered.
     And id value can be replaced with user_name or user_id whatever is unique according to requirement.
 
 5. Run this project on localhost http://127.0.0.1:8000/emp/ go to the given link to get API of the users
 
 ******************IMPORTANT********************************
 
-6. For live api interaction goto http://dpkjha.pythonanywhere.com/emp/ 
+6. For live api interaction goto http://dpkjha.pythonanywhere.com/emp/
    NOTE :  As per the requirement the application is hosted on pythonanywhere
 
 *************************************************
