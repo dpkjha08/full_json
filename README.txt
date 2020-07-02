@@ -15,15 +15,7 @@
 5. Id for simplicity is given as 1, 2, 3. It can be change if a full fludge application with user_id or user_name is considered.
     And id value can be replaced with user_name or user_id whatever is unique according to requirement.
 
-5. Run this project on localhost http://127.0.0.1:8000/emp/ go to the given link to get API of the users
-
-******************IMPORTANT********************************
-
-6. For live api interaction goto http://dpkjha.pythonanywhere.com/emp/
-   NOTE :  As per the requirement the application is hosted on pythonanywhere
-
-*************************************************
-
+6. Run this project on localhost http://127.0.0.1:8000/emp/ go to the given link to get API of the users
 
 7. DATABASES:
     a) full_throttle.sql file is given to import the database if needed and after importing the database run migration command as followed
